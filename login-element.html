@@ -1,0 +1,23 @@
+<link rel="import" href="Components/polymer/polymer.html">
+<link rel="import" href="Components/paper-button/paper-button.html">
+<link rel="import" href="Components/paper-input/paper-input.html">
+
+<polymer-element name="login-element">
+  <template>
+
+    <style>
+    #helloBtn{
+      background-color: #8BC34A;
+      color: #FFFFFF;
+    }
+    </style>
+
+    <paper-input floatinglabel label="Username"></paper-input><br>
+    <paper-input floatinglabel label="Password"></paper-input><br><br>
+    <paper-button id="helloBtn">Login</paper-button>
+  </template>
+
+  <script>
+    Polymer();
+  </script>
+</polymer-element>
